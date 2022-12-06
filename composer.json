@@ -1,0 +1,23 @@
+{
+    "name": "ethanclevenger91/oauth2-cloudways",
+    "description": "OAuth2 client for Cloudways",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "EthanClevenger91\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ethan Clevenger",
+            "email": "ethan.c.clevenger@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "league/oauth2-client": "^2.6"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}
